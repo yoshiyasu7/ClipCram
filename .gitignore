@@ -1,0 +1,77 @@
+# 1. System Files (macOS, Windows, Linux)
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+*.cab
+*.msi
+*.msm
+*.msp
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash/
+.Part
+.crdownload
+
+# 2. Environment UV and Python (cache, venv)
+.uv/
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# 3. Test stack and linters (pytest, ruff, basedpyright)
+.pytest_cache/
+.htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.ruff_cache/
+.basedpyright_cache/
+
+
+# 4. Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# 5. IDE settings (VS Code, PyCharm)
+.vscode/*
+.idea/
+*.iws
+*.iml
+
+# 6. SECRETS n ENV
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pub
